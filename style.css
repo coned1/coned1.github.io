@@ -83,6 +83,16 @@ h1 {
     border-width: 3px;
     cursor: pointer;
 }
+#color-button {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, purple);
+    color: black;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-width: 3px;
+    border-radius: 50px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
 .bottom-text {
     position: fixed;
     bottom: 0;
