@@ -96,3 +96,9 @@ jackpotbtn.onclick = function() {
         coinsGif.style.display = 'none';
     }, 17000); 
 };
+// color button
+const colorButton = document.getElementById('color-button');
+  colorButton.addEventListener('click', () => {
+    const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+    document.body.style.backgroundColor = randomColor;
+  });
